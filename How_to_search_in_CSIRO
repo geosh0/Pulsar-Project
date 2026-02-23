@@ -1,0 +1,28 @@
+# 📡 CSIRO Data Sources & Search Log
+
+This document tracks the specific raw data files (.sf) used to build and calibrate this pipeline. If you want to reproduce our results, these are the exact observations we pulled from the Parkes Radio Telescope archives.
+
+🔍 The Search Strategy
+To find these files on the CSIRO Data Access Portal, we used the following parameters to filter through the massive HTRU survey:
+Search Term: "Parkes observations for project P630 semester "
+Direct Link: Click here for Search Results
+Sorting: By Title (Ascending)
+
+🎯 The Calibration Datasets
+These are the files where we successfully detected pulsars and used the data to train the Neural Network.
+1. The Millisecond Pulsar (PSR J0437-4715)
+This file was used to test the pipeline against fast spin periods and binary acceleration.
+Collection: Parkes observations for project P630 semester 2009APRS_04
+Target File: bpsr081121_171829_beam04.sf
+Status: Fully processed. Yielded the "M-shape" profile detection.
+2. The Normal Pulsar (PSR J1048-5832)
+This file was used to test High-DM de-dispersion strategies.
+Collection: Parkes observations for project P630 semester 2010APRS_04
+Target File: bpsr100613_052818_beam08.sf
+Status: Processed via Grid Search. Provided standard pulse profiles for training.
+
+🏅 Honorary Mention
+The Galactic Center Test
+This file was our initial "Deep Space" test bed. While not used for the final classification model, it was crucial for calibrating the RFI masking and High-DM logic.
+Collection: Parkes observations for project P630 semester 2008OCTS_04
+Target File: bpsr090603_162807_beam13.sf
