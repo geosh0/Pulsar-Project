@@ -87,3 +87,7 @@ To solve the "Small Data" problem inherent in single-user processing, we augment
     *   [PALFA Survey Portal](https://palfa.nanograv.org/)
 *   **GBNCC Survey:** The Green Bank North Celestial Cap survey.
     *   [GBNCC Discovered Pulsars](https://astro.phys.wvu.edu/GBNCC/)
+
+
+## 🚧 Note from the Author:
+This repository is the result of a research project created for educational purposes and the joy of discovery. While we successfully managed to hunt down pulsars like J0437 and J1048, I am not a tenured radio astronomer. There are likely edge cases, parameter tunings, or theoretical nuances that I have missed. If you find a mistake in the physics or the code, please open an Issue or a Pull Request—I am here to learn!  
