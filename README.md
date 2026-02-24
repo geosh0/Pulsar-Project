@@ -36,7 +36,7 @@ We implemented a Python-wrapped automation of the PRESTO software (the industry-
 * Candidate Sifting (ACCEL_sift): Heuristic filtering to remove candidates that peak at DM=0 (Earth-based signals).
 * Folding (prepfold): Generating the candidate profiles from which we focus on the diagnostic plots (Pulse Profile, Time vs. Phase, Frequency vs. Phase) for AI consumption.
 
-### Key Innovations in our Pipeline:
+### Key Changes in our Pipeline:
 A core challenge in pulsar astronomy is that different types of pulsars (Slow vs. Fast) usually require different search parameters. While we selected files containing known targets, we designed the pipeline to treat every file as a "Blind Search." We did not tune the search parameters specifically for J0437 or J1048. Instead, we implemented a universal architecture that runs exhaustively on every file.
 
 * Universal Grid Search: Instead of guessing parameters based on metadata, our pipeline runs three concurrent search strategies on every file:
