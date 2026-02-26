@@ -1,5 +1,7 @@
 # Automated Pulsar Discovery & AI Classification
 
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fgeosh0%2FPulsar-Detection-and-AI-Classification&title=Views)](https://hits.seeyoufarm.com)
+
 An end-to-end pipeline for detecting and classifying pulsars, moving from raw radio telescope voltage data to Deep Learning classification.
 
 ## 🚀 Introduction to the project
